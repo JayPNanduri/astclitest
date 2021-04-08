@@ -9,7 +9,6 @@
 //mysql_query("SELECT * FROM sometable WHERE id = $var");
 
 //
-/// XSS example
 //
 $var = $_POST['var'];
 echo "<div>$var</div>\n";
